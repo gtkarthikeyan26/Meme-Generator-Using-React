@@ -1,11 +1,12 @@
 {
-  "name": "Scrim-s06ivg7",
-  "description": "https://scrimba.com/learn-react-c0e/~07k7",
+  "name": "meme-project",
+  "description": "MEME",
   "scripts": {
     "start": "vite",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "dependencies": {
     "react": "19.0.0-rc-b57d2823-20240822",
@@ -13,6 +14,7 @@
     "vite": "latest"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "*"
+    "@vitejs/plugin-react": "*",
+    "gh-pages": "^6.3.0"
   }
 }
